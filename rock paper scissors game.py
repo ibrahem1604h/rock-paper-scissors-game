@@ -19,7 +19,12 @@ x=["help"]
 choes=["rock","paper","scissors"]
 if help:
   if help in x:
-    print("1-Rock wins against scissors\n 2-paper wins against rock\n 3-scissors wins against paper\n")
+    print("""
+              ############ THE RULES #########
+              # 1-Rock wins against scissors #
+              #2-paper wins against rock     #
+              # 3-scissors wins against paper#
+              ################################""")
   else:
     print("invailed choice")
 else:
