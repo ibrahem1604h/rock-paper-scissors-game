@@ -87,5 +87,14 @@ else:
     print("you win")
   elif user_choice==cp_choice:
     print("drow")
-  else:
+  elif (user_choice=="scissors" and cp_choice=="rock") or (user_choice=="rock" and cp_choice=="paper") or (user_choice=="paper" and cp_choice=="scissors"):
     print("you lose")
+  else:
+     print("""
+███████╗██████╗░██████╗░░█████╗░██████╗░
+██╔════╝██╔══██╗██╔══██╗██╔══██╗██╔══██╗
+█████╗░░██████╔╝██████╔╝██║░░██║██████╔╝
+██╔══╝░░██╔══██╗██╔══██╗██║░░██║██╔══██╗
+███████╗██║░░██║██║░░██║╚█████╔╝██║░░██║
+╚══════╝╚═╝░░╚═╝╚═╝░░╚═╝░╚════╝░╚═╝░░╚═╝
+pleas run the program again and choose rock,paper,scissors""")
